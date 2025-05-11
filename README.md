@@ -1,52 +1,50 @@
-# 🎯 JavaScript Event Handling & Interactive Elements Assignment
+# Tawana Msebele | Personal Portfolio Website
 
-Welcome to the **ultimate JavaScript playground**! 🎉 This assignment is where we turn boring web pages into dynamic, responsive, *alive* experiences. Get ready to master **event handling**, build **interactive components**, and validate forms like a pro! 💪
+A professional portfolio website showcasing my skills, projects, and development journey as a Full Stack Web Developer and Power Learn Academy Scholar.
 
-## 📁 Assignment Structure
+## Live Demo
 
-```
-📂 js-event-assignment/
-├── index.html         # Your playground – where it all comes together
-├── style.css          # Keep it cute (optional but encouraged)
-└── script.js          # The JavaScript wizardry happens here
-```
+[Visit the website](https://tmsebel.github.io/portfolio/)
 
----
+## Description
 
-## 🧪 What to Build
+This portfolio website serves as a digital resume and project showcase. It highlights my development skills, ongoing learning journey, and the projects I've completed while studying web development. The site features a clean, responsive design with sections for:
 
-Here’s what your interactive bundle of joy should include:
+- Personal introduction and background
+- About me and my educational journey
+- Project showcase with live demos and source code links
+- Skills and technologies I've mastered
+- Contact information for networking and opportunities
 
-### 1. Event Handling 🎈  
-- Button click ✅  
-- Hover effects ✅  
-- Keypress detection ✅  
-- Bonus: A secret action for a *double-click* or *long press* 🤫
+The website is designed to provide potential employers, collaborators, and fellow developers with an overview of my capabilities and development style.
 
-### 2. Interactive Elements 🎮  
-- A button that changes text or color  
-- An image gallery or slideshow  
-- Tabs or accordion-style content  
-- Bonus: Add some animation using JS or CSS ✨
+## Technologies Used
 
-### 3. Form Validation 📋✅  
-- Required field checks  
-- Email format validation  
-- Password rules (e.g., min 8 characters)  
-- Bonus: Real-time feedback while typing
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+- GitHub Pages for hosting
 
----
+## Setup
 
-## 🧙‍♂️ Pro Tips
+To set up this project locally:
 
-- Keep your code clean and commented – your future self will thank you!
-- Think about **user experience** – what makes your site more *fun* to use?
-- Don’t be afraid to **Google and experiment** – that’s how real developers roll!
+1. Clone the repository
+   ```
+   git clone https://github.com/tmsebel/portfolio-website.git
+   ```
+2. Open the project folder in your code editor
+3. Launch the `index.html` file in your browser to view the website
 
----
+No additional dependencies or build steps are required as this is a static website.
 
-## 🎉 Now Go Make It Fun!
+## Features
 
-Remember – this isn't just code. It's your **first step toward creating magical user experiences**. So play around, break stuff (then fix it), and most of all, have FUN! 😄
-
-Happy Coding! 💻✨  
+- Responsive design that works on desktop and mobile devices
+- Project showcase with descriptions and technologies used
+- Direct links to live demos and source code repositories
+- Skills section highlighting technical capabilities
+- Contact section with multiple ways to connect
+- Clean navigation between different sections of the portfolio
+- Professional presentation of development journey and accomplishments

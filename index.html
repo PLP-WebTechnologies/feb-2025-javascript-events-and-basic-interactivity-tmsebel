@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawana Msebele | Personal Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="images/Tawana Profile.jpeg" alt="profile pic" class="profile-img">
+                <h1 class="header-title">Tawana Msebele</h1>
+                <h2 class="header-subtitle">Full Stack Web Developer | Power Learn Academy Scholar</h2>
+                <p>Building my skills in web development through practical projects</p>
+                <div style="margin-top: 20px;">
+                    <a href="/css/contact_form.html" class="btn" id="contactBtn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    Hello! I'm a passionate developer currently enrolled in the Power Learn Academy scholarship program. 
+                    I'm focused on building a strong foundation in web development through hands-on projects
+                    and continuous learning. My goal is to create intuitive, efficient, and accessible digital experiences.
+                </p>
+                <p style="margin-top: 20px;">
+                    This portfolio showcases my journey as I progress through my learning path.
+                    Each project represents a milestone in my development skills and knowledge.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1: Calculator App -->
+                <div class="project-card">
+                    <img src="images/calculator.jpg" alt="Calculator App Screenshot" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Calculator App</h3>
+                        <p class="project-desc">
+                            A functional calculator built with Python that handles basic arithmetic operations. 
+                            This project helped me understand basic input and output using python aswell as data types.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Live Demo</a>
+                            <a href="https://github.com/tmsebel/basic_calculator.git">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Static Website -->
+                <div class="project-card">
+                    <img src="images/static_web.jpg" alt="Static Website Screenshot" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Blog Website</h3>
+                        <p class="project-desc">
+                            A static website created with HTML and CSS that showcases responsive design principles 
+                            and semantic HTML structure.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://first-portfolio-three-dusky.vercel.app">Live Demo</a>
+                            <a href="https://github.com/tmsebel/first_portfolio.git">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 (Placeholder for future projects) -->
+                <div class="project-card">
+                    <img src="images/under_construction.jpg" alt="Coming Soon" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Coming Soon</h3>
+                        <p class="project-desc">
+                            My next project is currently in development. Check back soon to see what I'm working on!
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Future Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <p>These are the technologies and concepts I've been working with:</p>
+                <div class="skills-list">
+                    <span class="skill-item">HTML5</span>
+                    <span class="skill-item">CSS3</span>
+                    <span class="skill-item">JavaScript</span>
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">Git & GitHub</span>
+                    <span class="skill-item">Web Accessibility</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in new opportunities to learn and grow. Feel free to reach out!</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <h3>Email</h3>
+                        <p>msebeletawana@gmail.com</p>
+                    </div>
+                    <div class="contact-method">
+                        <h3>LinkedIn</h3>
+                        <a href="#">Connect with me</a>
+                    </div>
+                    <div class="contact-method">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/tmsebel">See my code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Tawana Technology Group. All rights reserved.</p>
+                <div style="margin-top: 10px;">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
